@@ -1,0 +1,254 @@
+body {
+  font-family: 'Commissioner', sans-serif;
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+ul {
+  margin: 0;
+}
+
+p {
+  color: #ababab;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 50px 0 10px;
+  margin: 0;
+}
+
+
+.commonSection {
+  background-color: #ffffff;
+  width: 60%;
+  margin: 40px auto;
+  border: 1px solid #ededed;
+  border-radius: 15px;
+}
+
+
+/*************************** Header ***************************/
+.header {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("images/image-hero-desktop.jpg");
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-logo {
+  flex-grow: 1;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.header-utility {
+  flex-grow: 1;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 10%;
+}
+
+.utility {
+  display: inline;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.utility a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.utility a:hover {
+  color: #ebebeb;
+}
+
+/*************************** Section 1. Title ***************************/
+#section1 {
+  margin: -100px auto 0;
+}
+
+.buttons-area {
+  padding: 30px 0 50px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.first-button {
+  flex-grow: 1;
+}
+
+.second-button {
+  flex-grow: 1;
+  border-radius: 28px;
+  font-size: 14px;
+}
+
+.back-the-project {
+  display: inline-block;
+  background-color: #147B74;
+  border-radius: 28px;
+  color: #ffffff;
+  padding: 13px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.back-the-project:hover {
+  background-color: #3CB4AC;
+}
+
+
+.bookmark-icon {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+}
+
+.bookmark-text {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 28px;
+  padding: 13px 30px 13px 60px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #ededed;
+  color: #147B74;
+}
+
+/*************************** Section 2. Funding Status ***************************/
+
+.datas {
+  margin: 30px 0 30px
+}
+
+.data {
+  display: inline-block;
+  width: 30%;
+  border-right: 1px solid #ededed;
+}
+
+.data h2 {
+  font-size: 3rem;
+  line-height: 0.5;
+}
+
+#day-left {
+  border-right: none;
+}
+
+.graph {
+  width: 85%;
+  margin: 0 auto 50px;
+}
+
+.graph .bar {
+  height: 10px;
+  border-radius: 10px;
+}
+
+.total-bar {
+  width: 100%;
+  margin: auto;
+  background-color: #ededed;
+}
+
+.backers-bar {
+  width: 40%;
+  margin-left: 0;
+  background-color: #3CB4AC;
+}
+
+
+/*************************** Section 3. About this project ***************************/
+#section3 {
+  text-align: left;
+}
+.project-title {
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 50px auto;
+}
+.project-description {
+  width: 80%;
+  margin: 50px auto;
+  line-height: 2;
+}
+
+.card {
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+.card-header, .card-body, .card-footer {
+  width: 85%;
+  margin: 20px auto 20px;
+}
+.card-header, .card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/****** card on ******/
+.card-on {
+  border: 1px solid #bdbdbd;
+}
+
+.card-pledge {
+  color: #3CB4AC;
+}
+.card-footer h4 {
+  font-size: 1rem;
+  color: #bdbdbd;
+  margin: 0;
+}
+.card-footer h4 strong {
+  font-size: 2rem;
+  vertical-align: top;
+  color: black;
+}
+.card-footer a {
+  text-decoration: none;
+  border-radius: 28px;
+  padding: 13px 30px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #3CB4AC;
+  color: #ffffff;
+}
+.card-footer a:hover {
+  background-color: #147B74;
+}
+
+/****** card on ******/
+.card-off {
+  border: 1px solid #ededed;
+}
+
+.card-off .card-header {
+  color: #bdbdbd;
+}
+.card-off .card-header h3 {
+  color: #bdbdbd;
+}
+
+.card-off .card-body {
+  color: #d1d1d1;
+}
+
+.card-off .card-footer strong {
+  color: #bdbdbd;
+}
+.card-off .card-footer a {
+  background-color: #bdbdbd;
+}
